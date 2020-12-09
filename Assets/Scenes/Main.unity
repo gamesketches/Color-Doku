@@ -483,7 +483,7 @@ GameObject:
   - component: {fileID: 1552821621}
   - component: {fileID: 1552821620}
   m_Layer: 5
-  m_Name: Green
+  m_Name: Yellow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -560,7 +560,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: '#00FF00'
+          m_StringArgument: '#F6F202'
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1552821621
@@ -576,7 +576,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0.9528302, b: 0.057406016, a: 1}
+  m_Color: {r: 0.9622642, g: 0.94608057, b: 0.004538993, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -667,7 +667,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Green
+  m_Text: Yellow
 --- !u!222 &1614701100
 CanvasRenderer:
   m_ObjectHideFlags: 0
