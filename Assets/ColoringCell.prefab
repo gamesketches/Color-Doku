@@ -12,8 +12,9 @@ GameObject:
   - component: {fileID: 631897079852520466}
   - component: {fileID: 6142094870436256619}
   - component: {fileID: 5089799663682233813}
+  - component: {fileID: -5197209148738699864}
   m_Layer: 0
-  m_Name: GridPrefab
+  m_Name: ColoringCell
   m_TagString: gridelement
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -28,7 +29,7 @@ Transform:
   m_GameObject: {fileID: 2881623316770645535}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 30, y: 30, z: 1}
+  m_LocalScale: {x: 22, y: 7.27, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -120,3 +121,16 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.16, y: 0.16}
   m_EdgeRadius: 0
+--- !u!114 &-5197209148738699864
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2881623316770645535}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80e6b6b95a1ed4d54bc8bb99afde3b36, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  blendingColor: {r: 0, g: 0, b: 0, a: 0}

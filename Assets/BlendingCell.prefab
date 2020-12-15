@@ -10,10 +10,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1424306463963820766}
   - component: {fileID: 631897079852520466}
-  - component: {fileID: 6142094870436256619}
   - component: {fileID: 5089799663682233813}
+  - component: {fileID: -4995062451645190010}
   m_Layer: 0
-  m_Name: GridPrefab
+  m_Name: BlendingCell
   m_TagString: gridelement
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -82,18 +82,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &6142094870436256619
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2881623316770645535}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3a184fc446a1c4677b47306aef65ebf1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!61 &5089799663682233813
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -120,3 +108,16 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.16, y: 0.16}
   m_EdgeRadius: 0
+--- !u!114 &-4995062451645190010
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2881623316770645535}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6556e04d00584fbabaee1d8e7ac7024, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  linkedCells: []
