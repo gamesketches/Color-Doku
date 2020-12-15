@@ -1124,6 +1124,11 @@ PrefabInstance:
       propertyPath: linkedCells.Array.data[3]
       value: 
       objectReference: {fileID: 694460540}
+    - target: {fileID: -4995062451645190010, guid: 21be67c7ed6c54c4296e78ee8c4cc2d2,
+        type: 3}
+      propertyPath: locked
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2881623316770645535, guid: 21be67c7ed6c54c4296e78ee8c4cc2d2,
         type: 3}
       propertyPath: m_Name
@@ -1183,6 +1188,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 631897079852520466, guid: 21be67c7ed6c54c4296e78ee8c4cc2d2,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 0.9622642
+      objectReference: {fileID: 0}
+    - target: {fileID: 631897079852520466, guid: 21be67c7ed6c54c4296e78ee8c4cc2d2,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 0.60080004
+      objectReference: {fileID: 0}
+    - target: {fileID: 631897079852520466, guid: 21be67c7ed6c54c4296e78ee8c4cc2d2,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 0.05900679
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 21be67c7ed6c54c4296e78ee8c4cc2d2, type: 3}

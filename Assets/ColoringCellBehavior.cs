@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public enum ColoringCellColor {Red, Blue, Yellow, White}
+public enum ColoringCellColor {Red, Blue, Yellow, Orange, Green, Cyan, White}
 public class ColoringCellBehavior : MonoBehaviour
 {
     public Color blendingColor;
@@ -45,6 +45,18 @@ public class ColoringCellBehavior : MonoBehaviour
                 blendingColor = Color.yellow;
                 break;
             case ColoringCellColor.Yellow:
+                cellColor = ColoringCellColor.Cyan;
+                blendingColor = Color.cyan;
+                break;
+            case ColoringCellColor.Cyan:
+                cellColor = ColoringCellColor.Orange;
+                blendingColor = new Color(0.9622642f, 0.6008f, 0.05900679f);
+                break;
+            case ColoringCellColor.Orange:
+                cellColor = ColoringCellColor.Green;
+                blendingColor = Color.green;
+                break;
+            case ColoringCellColor.Green:
                 cellColor = ColoringCellColor.White;
                 blendingColor = Color.white;
                 break;

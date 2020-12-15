@@ -6,6 +6,7 @@ public class BlendingCellBehavior : MonoBehaviour
 {
     public ColoringCellBehavior[] linkedCells;
     SpriteRenderer spriteRenderer;
+    public bool locked;
     // Start is called before the first frame update
     void Start()
     {
@@ -29,7 +30,7 @@ public class BlendingCellBehavior : MonoBehaviour
         {
             startColor = Color.Lerp(startColor, cell.blendingColor, 0.5f);
         }
-        if(spriteRenderer.color != startColor) {
+        if(spriteRenderer.color != startColor && !locked) {
             StartCoroutine(LerpToColor(startColor));
         }
     }
